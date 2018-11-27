@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ball_state_msgs</name>
+  <version>0.0.0</version>
+  <description>
+      This is msgs for ekf ball orbit estimator.
+  </description>
+  <maintainer email="m-hattori@jsk.imi.i.u-tokyo.ac.jp">Mirai Hattori</maintainer>
+  <license>BSD</license>
+  <author>Mirai Hattori</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>roseus</depend>
+  <depend>rospy</depend>
+  <depend>message_generation</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+</package>
